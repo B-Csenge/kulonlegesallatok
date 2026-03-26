@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Különleges állatok</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- Menü -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#fooldal">Különleges állatok</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fooldal">Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#allatok">Állatok</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kapcsolat">Kapcsolat</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Főoldal -->
+    <header id="fooldal" class="text-white">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- indikátorok -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <!-- carousel képek -->
+  <div class="carousel-inner" style="height:400px;">
+    <div class="carousel-item active">
+      <img src="/img/Erdo.png" class="d-block w-100 h-90" style="object-fit:cover;" alt="kep">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/erdo2.jpg" class="d-block w-100 h-90" style="object-fit:cover;" alt="erdo2">
+    </div>
+    <div class="carousel-item">
+      <img src="/img/erdo3.jpg" class="d-block w-100 h-90" style="object-fit:cover;" alt="erdo3">
+    </div>
+  </div>
+
+  <!-- előző / következő gombok -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Előző</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Következő</span>
+  </button>
+
+</div>
+
+</header>
+
+<!-- Bootstrap CSS + JS Bundle -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Állatok -->
+    <section id="allatok" class="container my-5">
+        <h2 class="text-center fw-bold mb-4">Különleges állatok</h2>
+
+        <div class="row g-4">
+
+            <!-- 1 -->
+            <div class="col-12 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/Mexikoi_szalamandra.png" class="card-img-top" alt="Mexikói szalamandra"style="height: 280px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Mexikói szalamandra</h5>
+                        <p class="card-text">Egy különleges kétéltű, amely képes testrészeket újranöveszteni.</p>
+                        <a href="axolotl.html" class="btn btn-success d-block">Részletek</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-12 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/cukormokus.png" class="card-img-top" alt="Törpe erszényesmókus" style="height: 280px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Törpe erszényesmókus</h5>
+                        <p class="card-text">Kis termetű állat, amely siklani tud a fák között.</p>
+                        <a href="/cukormokus.html" class="btn btn-success d-block">Részletek</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-12 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/uvegebeka.png" class="card-img-top" alt="Üvegbéka" style="height: 280px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Üvegbéka</h5>
+                        <p class="card-text">Különlegessége, hogy hasa részben áttetsző.</p>
+                        <a href="uvegbeka.html" class="btn btn-success d-block">Részletek</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-12 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/Kek_sarkany.png" class="card-img-top" alt="Kék sárkány" style="height: 280px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Kék sárkány</h5>
+                        <p class="card-text">Apró tengeri élőlény, látványos kék színnel.</p>
+                        <a href="keksarkany.html" class="btn btn-success d-block">Részletek</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="col-12 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/levefarkugekko.png" class="card-img-top" alt="Levélfarkú gekkó" style="height: 280px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Levélfarkú gekkó</h5>
+                        <p class="card-text">Kiválóan álcázza magát, mert levélre hasonlít.</p>
+                        <a href="gekko.html" class="btn btn-success d-block">Részletek</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="col-12 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/Hosszufuluugroeger.png" class="card-img-top" alt="Hosszúfülű ugróegér">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Hosszúfülű ugróegér</h5>
+                        <p class="card-text">Nagy füleiről és hosszú hátsó lábairól ismert.</p>
+                        <a href="ugroeger.html" class="btn btn-success d-block">Részletek</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kapcsolat" class="bg-success text-white py-4 mt-5">
+        <div class="container">
+            <div class="row text-center text-lg-start">
+                
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                    <h6 class="fw-bold">Élérhetőség</h6>
+                    <p class="mb-0">+36 30 123 4567</p>
+                </div>
+
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                    <h6 class="fw-bold">Készítette</h6>
+                    <p class="mb-0">Bogárdi Csenge és Venter Bence</p>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <h6 class="fw-bold">Kapcsolat</h6>
+                    <p class="mb-0">Különleges állatok weboldal</p>
+                
+                <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                    <h6><button type="button" class="btn btn-success"><a  href="forras.html" class="fw-bold">Információ</a></button></h6>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
